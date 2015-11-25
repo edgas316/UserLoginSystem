@@ -50,5 +50,6 @@
 - Install bcrypt
 >npm install bcrypt
 
--- You may need to do this
+- You may need to do this
 >npm install bcrypt --msvs_version=2013
+
