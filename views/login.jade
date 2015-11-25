@@ -3,7 +3,7 @@ extends layout
 block content
     h1 Login
     p Please login below
-    form(method='post', action='/users/register', enctype='multipart/form-data')
+    form(method='post', action='/users/login', enctype='application/json')
         // No characters are encoded. This value is required when you are using forms that have a file upload control
         .form-group
             label Username
