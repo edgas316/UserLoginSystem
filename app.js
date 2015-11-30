@@ -33,7 +33,7 @@ app.post('/profile', upload.single('avatar'), function (req, res, next) {
   // req.body will hold the text fields, if there were any
 })
 
-app.post('/photos/upload', upload.array('photos', 12), function (req, res, next) {
+app.post('/upload', upload.array('photos', 12), function (req, res, next) {
   // req.files is array of `photos` files
   // req.body will contain the text fields, if there were any
 })

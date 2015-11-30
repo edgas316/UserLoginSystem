@@ -81,7 +81,7 @@ router.post('/register', function(req, res, next){
         })
         
         // Success Message
-        req.flash('success', 'You are noe registered and may log in')
+        req.flash('success', 'You are now registered and may log in')
         
         res.location('/')
         res.redirect('/')
